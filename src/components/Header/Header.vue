@@ -8,11 +8,12 @@
       <!-- Navigation Bar -->
       <div class="navbar">        
           <li class="left-pan"><router-link to="/"><i class="fa fa-home"></i> Home</router-link></li>        
-          <div class="right-pan search-container">
+          <!-- NOt Implemented -->
+          <!-- <div class="right-pan search-container">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit" @click="searchItem"><i class="fa fa-search"></i></button>
-          </div>                
-          <li class="cart-pan"><router-link  to="/cart"><i class="fa fa-shopping-cart" ></i> Cart ({{cartItemsCount}})</router-link></li>  
+          </div>                 -->
+          <li class="right-pan cart-pan"><router-link  to="/cart"><i class="fa fa-shopping-cart" ></i> Cart ({{cartItemsCount}})</router-link></li>  
       </div>
     </div>
 </template>
